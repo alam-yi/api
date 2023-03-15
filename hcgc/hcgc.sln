@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hcgc", "hcgc\hcgc.csproj", "{9018E5E4-408A-4CC9-8450-E337281B94F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hcgc.domian", "hcgc.domian\hcgc.domian.csproj", "{81A5D302-FCFC-4FBE-9352-F614AE3B5A90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9018E5E4-408A-4CC9-8450-E337281B94F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9018E5E4-408A-4CC9-8450-E337281B94F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9018E5E4-408A-4CC9-8450-E337281B94F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9018E5E4-408A-4CC9-8450-E337281B94F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81A5D302-FCFC-4FBE-9352-F614AE3B5A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81A5D302-FCFC-4FBE-9352-F614AE3B5A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81A5D302-FCFC-4FBE-9352-F614AE3B5A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81A5D302-FCFC-4FBE-9352-F614AE3B5A90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E8AB369-1D8B-42F1-8594-E70AE4606E68}
+	EndGlobalSection
+EndGlobal
