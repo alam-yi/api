@@ -7,6 +7,16 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// ‘ –ÌøÁ”Ú«Î«Û
+builder.Services.AddCors(c =>
+{
+    c.AddPolicy("AllowAllOrigins", policy =>
+    {
+        policy.AllowAnyOrigin()
+        .AllowAnyMethod()
+        .AllowAnyHeader();
+    });
+});
 // ≈‰÷√EF
 //builder.Services.AddDbContext < "YOUR_DBCONTEXT" > (option =>
 //    option.UseSqlServer(builder.Configuration.GetConnectionString(CONNECTION_STRING)));
@@ -20,6 +30,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCors("AllowAllOrigins");
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
